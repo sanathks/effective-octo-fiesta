@@ -7,11 +7,11 @@ function getRandomWordSync({ withErrors = false } = {}) {
     return randomWords();
 }
 
-function getRandomWord({ withErrors = false } = {}) {
+function getRandomWord({ withErrors = false, slow = false } = {}) {
     return new Promise((resolve, reject) => {
         setTimeout(
             () => withErrors && randomInRange(0, 5) === 5 ? reject(new Error('It failed :(')) : resolve(randomWords()),
-            randomInRange(1, 10)
+            slow ? 500 : 0
         );
     });
 }
