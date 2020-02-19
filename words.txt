@@ -1,0 +1,204 @@
+Synchronous random word generator with index 
+0: FizzBuZZ
+1: globe
+2: lamp
+3: Fizz
+4: year
+5: BuZZ
+6: Fizz
+7: It shouldn't break anything!
+8: expect
+9: Fizz
+10: BuZZ
+11: due
+12: Fizz
+13: It shouldn't break anything!
+14: It shouldn't break anything!
+15: FizzBuZZ
+16: It shouldn't break anything!
+17: copy
+18: Fizz
+19: poet
+20: BuZZ
+21: Fizz
+22: It shouldn't break anything!
+23: also
+24: Fizz
+25: BuZZ
+26: express
+27: Fizz
+28: sold
+29: rising
+30: FizzBuZZ
+31: clothes
+32: there
+33: Fizz
+34: globe
+35: BuZZ
+36: Fizz
+37: settle
+38: western
+39: Fizz
+40: BuZZ
+41: It shouldn't break anything!
+42: Fizz
+43: cell
+44: pattern
+45: FizzBuZZ
+46: keep
+47: wolf
+48: Fizz
+49: It shouldn't break anything!
+50: BuZZ
+51: Fizz
+52: accident
+53: choice
+54: Fizz
+55: BuZZ
+56: battle
+57: Fizz
+58: find
+59: nearest
+60: FizzBuZZ
+61: time
+62: that
+63: Fizz
+64: package
+65: BuZZ
+66: Fizz
+67: It shouldn't break anything!
+68: It shouldn't break anything!
+69: Fizz
+70: BuZZ
+71: vegetable
+72: Fizz
+73: It shouldn't break anything!
+74: famous
+75: FizzBuZZ
+76: It shouldn't break anything!
+77: curious
+78: Fizz
+79: sent
+80: BuZZ
+81: Fizz
+82: halfway
+83: bite
+84: Fizz
+85: BuZZ
+86: special
+87: Fizz
+88: invented
+89: pride
+90: FizzBuZZ
+91: us
+92: major
+93: Fizz
+94: ranch
+95: BuZZ
+96: Fizz
+97: only
+98: feed
+99: Fizz
+100: BuZZ
+Asynchronous random word generator with index 
+0: FizzBuZZ
+1: soldier
+2: money
+3: Fizz
+4: soap
+5: BuZZ
+6: Fizz
+7: chart
+8: It shouldn't break anything!
+9: Fizz
+10: BuZZ
+11: explain
+12: Fizz
+13: It shouldn't break anything!
+14: tune
+15: FizzBuZZ
+16: It shouldn't break anything!
+17: refer
+18: Fizz
+19: still
+20: BuZZ
+21: Fizz
+22: action
+23: It shouldn't break anything!
+24: Fizz
+25: BuZZ
+26: attempt
+27: Fizz
+28: born
+29: compound
+30: FizzBuZZ
+31: knowledge
+32: gravity
+33: Fizz
+34: bark
+35: BuZZ
+36: Fizz
+37: flow
+38: writing
+39: Fizz
+40: BuZZ
+41: use
+42: Fizz
+43: task
+44: It shouldn't break anything!
+45: FizzBuZZ
+46: member
+47: send
+48: Fizz
+49: It shouldn't break anything!
+50: BuZZ
+51: Fizz
+52: mile
+53: eager
+54: Fizz
+55: BuZZ
+56: journey
+57: Fizz
+58: return
+59: discover
+60: FizzBuZZ
+61: excellent
+62: build
+63: Fizz
+64: must
+65: BuZZ
+66: Fizz
+67: It shouldn't break anything!
+68: park
+69: Fizz
+70: BuZZ
+71: remove
+72: Fizz
+73: It shouldn't break anything!
+74: individual
+75: FizzBuZZ
+76: cook
+77: among
+78: Fizz
+79: yard
+80: BuZZ
+81: Fizz
+82: guide
+83: soft
+84: Fizz
+85: BuZZ
+86: pick
+87: Fizz
+88: single
+89: gift
+90: FizzBuZZ
+91: look
+92: shop
+93: Fizz
+94: news
+95: BuZZ
+96: Fizz
+97: use
+98: monkey
+99: Fizz
+100: BuZZ
