@@ -3,28 +3,25 @@
  */
 const { getRandomWordWithIndexSync, getRandomWordWithIndex } = require('./word-maker-extended');
 
-const wordsGeneratorSync = ({max = 1, withErrors = false, printFizzBuzz = false } = {}) => {
-    const wordsWithIndex = [];
-    for (let index=0; index < (max + 1); index++) {
-        wordsWithIndex.push(getRandomWordWithIndexSync({ index, withErrors, printFizzBuzz }));
-    }
+const wordsGeneratorSync = ({ max = 1, withErrors = false, printFizzBuzz = false } = {}) => {
+  const wordsWithIndex = [];
+  for (let index = 0; index < max + 1; index++) {
+    wordsWithIndex.push(getRandomWordWithIndexSync({ index, withErrors, printFizzBuzz }));
+  }
 
-    return wordsWithIndex;
+  return wordsWithIndex;
 };
 
+const wordsGenerator = async ({ max = 1, withErrors = false, printFizzBuzz = false } = {}) => {
+  const wordsWithIndex = [];
+  for (let index = 0; index < max + 1; index++) {
+    wordsWithIndex.push(getRandomWordWithIndex({ index, withErrors, printFizzBuzz, slow: true }));
+  }
 
-
-const wordsGenerator = async ({max = 1, withErrors = false, printFizzBuzz = false } = {}) => {
-    const wordsWithIndex = [];
-    for (let index=0; index < (max + 1); index++) {
-        wordsWithIndex.push(getRandomWordWithIndex({ index, withErrors, printFizzBuzz, slow: true }));
-    }
-
-    return Promise.all(wordsWithIndex);
+  return Promise.all(wordsWithIndex);
 };
-
 
 module.exports = {
-    wordsGeneratorSync,
-    wordsGenerator
+  wordsGeneratorSync,
+  wordsGenerator,
 };
