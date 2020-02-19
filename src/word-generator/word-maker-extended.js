@@ -32,17 +32,9 @@ const getRandomWordWithIndex = async ({ index, withErrors = false, printFizzBuzz
 };
 
 const fizzBuzzGenerator = index => {
-  if (index % 15 === 0) {
-    return 'FizzBuZZ';
-  }
-
-  if (index % 5 === 0) {
-    return 'BuZZ';
-  }
-
-  if (index % 3 === 0) {
-    return 'Fizz';
-  }
+  if (index % 15 === 0){return "FizzBuzz";}
+  if (index % 3 === 0){return "Fizz";}
+  if (index % 5 === 0){return "Buzz";}
 
   return false;
 };

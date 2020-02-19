@@ -4,12 +4,23 @@
   "description": "Javascript assessment for Harver engineering candidates",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "jest"
   },
   "author": "Phil Mander <philip@harver.com>",
   "license": "ISC",
   "dependencies": {
     "random-words": "^1.1.0",
     "word-maker": "file:word-maker"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
